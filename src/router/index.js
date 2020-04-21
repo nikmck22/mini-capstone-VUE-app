@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import ProductsIndex from '../views/ProductsIndex.vue';
+import ProductsUpdate from '../views/ProductsUpdate.vue'; 
+import ProductsNew from '../views/ProductsNew.vue'; 
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/products',
+    name: 'ProductsIndex',
+    component: ProductsIndex
+  },
+  {
+    path: '/products/new',
+    name: 'ProductsNew',
+    component: ProductsNew
+  },
+  {
+    path: '/products/:id',
+    name: 'ProductsUpdate',
+    component: ProductsUpdate
   },
   {
     path: '/about',
