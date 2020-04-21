@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> | 
       <router-link to="/products">Products Index</router-link> |
-      <router-link to="/products/:id">Update a Product</router-link> |
+      <router-link to="/products/:id/edit">Update a Product</router-link> |
       <router-link to="/products/new">Add a New Product</router-link>
     </div>
     <router-view/>

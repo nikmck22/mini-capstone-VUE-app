@@ -24,7 +24,7 @@ Vue.use(VueRouter)
     component: ProductsNew
   },
   {
-    path: '/products/:id',
+    path: '/products/:id/edit',
     name: 'ProductsUpdate',
     component: ProductsUpdate
   },
